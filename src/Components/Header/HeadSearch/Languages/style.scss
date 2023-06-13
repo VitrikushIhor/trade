@@ -1,0 +1,89 @@
+.header-line__languages {
+	margin-top: 7px;
+	width: 80px;
+	background-color: transparent;
+	position: relative;
+}
+.languages-btn {
+	font-weight: bold;
+	font-family: Arial;
+	background-color: #fff;
+	cursor: pointer;
+	user-select: none;
+	position: relative;
+	text-align: center;
+}
+
+.languages-content {
+	box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+	position: absolute;
+	top: 35px;
+	padding: 7px;
+	background-color: #fff;
+	color: #333;
+	font-weight: 500;
+	width: 80%;
+	text-align: end;
+	user-select: none;
+}
+.languages-item {
+	padding: 5px;
+	transition: all 0.2s;
+	cursor: pointer;
+}
+
+.languages-item:first-child::after{
+	content: url("../../../../assets/images/flags/Ua.svg");
+	position: absolute;
+	top: 10px;
+	right: 40px;
+	width: 35px;
+	height: 35px;
+}
+.languages-item:last-child::after{
+	content: url("../../../../assets/images/flags/Eng.svg");
+	position: absolute;
+	top: 37px;
+	left: 2px;
+	width: 30px;
+	height: 35px;
+}
+
+.languages-item:hover {
+	background-color: #f2f2f2;
+}
+
+.languages-btn::before {
+	content: url("../../../../assets/images/Vector.png");
+	position: absolute;
+	top: -2px;
+	display: inline-block;
+	left: 60px;
+	transition: all 0.3s;
+}
+
+.languages-btn.arrow::before {
+	transform: rotate(180deg);
+	transition: all 0.3s;
+}
+
+
+.languages-btn.Eng::after{
+	content:url("../../../../assets/images/flags/Eng.svg");
+	width: 35px;
+	height: 30px;
+	position: absolute;
+	top: -3px;
+	right:  60px;
+	transition: all 0.2s;
+}
+
+.languages-btn.Ua::after{
+	content:url("../../../../assets/images/flags/Ua.svg");
+	width: 40px;
+	height: 30px;
+	position: absolute;
+	top: -3px;
+	right:  45px;
+	transition: all 0.2s;
+}

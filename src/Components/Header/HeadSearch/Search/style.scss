@@ -1,0 +1,15 @@
+.header-search {
+  &__button {
+    height: 18px;
+    background-color: transparent;
+
+    .search-icon {
+      cursor: pointer;
+    }
+  }
+
+  &__input {
+    width: 50px;
+    height: 18px;
+  }
+}

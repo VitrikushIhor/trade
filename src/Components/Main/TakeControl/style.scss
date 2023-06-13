@@ -1,0 +1,50 @@
+.take-control {
+  padding-top: 100px;
+  width: 1000px;
+
+  &__content {
+    width: 600px;
+    height: 500px;
+    z-index: 4;
+  }
+
+  &__buttons {
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__buttons-first {
+    width: 275px;
+    height: 55px;
+  }
+
+  &__buttons-second {
+    width: 185px;
+    height: 55px;
+  }
+
+  &__images {
+    position: relative;
+  }
+
+  &__first-image {
+    display: block;
+    position: absolute;
+    top: -30px;
+    left: -45px;
+  }
+
+  &__second-image {
+    position: absolute;
+    display: block;
+    top: 200px;
+    left: -240px;
+  }
+
+  &__circle-image {
+    position: absolute;
+    top: 120px;
+    left: -130px;
+  }
+}

@@ -1,0 +1,50 @@
+.support {
+	width: 100%;
+	height: 135px;
+	background-color: #1234e8;
+	margin-top: 60px;
+	margin-bottom: 50px;
+
+	&__content {
+		height: 100%;
+		align-items: center;
+		position: relative;
+	}
+
+	&__content-title {
+		text-align: center;
+		color: #ffffff;
+	}
+
+	&__content-button {
+		button {
+			position: relative;
+			width: 153px;
+			height: 55px;
+			background: #ffffff;
+			border-radius: 5px;
+			font-weight: 600;
+			font-size: 14px;
+			line-height: 14px;
+			color: #1234e8;
+			border: none;
+
+			&:hover {
+				transition: all 0.2s;
+				box-shadow: 1px 2px 12px 3px #ffffff;
+			}
+		}
+
+		button::before {
+			content: url("../../../assets/images/support.svg");
+			position: absolute;
+			top: 15px;
+			left: 15px;
+		}
+	}
+
+	&__content-image {
+		position: absolute;
+		right: 130px;
+	}
+}

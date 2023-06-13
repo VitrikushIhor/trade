@@ -1,0 +1,56 @@
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	width: 1070px;
+
+	&__links {
+		&-menu {
+			li:hover::after {
+				display: inline-block;
+				transform: rotate(180deg);
+				transition: all 0.4s;
+			}
+
+			li {
+				display: inline-block;
+				padding: 15px;
+				position: relative;
+				z-index: 3;
+
+				ul {
+					display: none;
+				}
+
+				&:hover {
+					cursor: pointer;
+
+					ul {
+						display: block;
+						margin-top: 15px;
+						width: 195px;
+						left: 0;
+						position: absolute;
+						z-index: 3;
+
+						li {
+							display: block;
+							background-color: #f2f2f2f2;
+							border-radius: 10px;
+
+							&:hover {
+								background-color: rgb(216, 213, 213);
+							}
+						}
+					}
+				}
+			}
+
+			.menu-item::after {
+				content: url("../../../assets/images/Vector.png");
+				margin-left: 5px;
+				transition: all 0.4s;
+				display: inline-block;
+			}
+		}
+	}
+}

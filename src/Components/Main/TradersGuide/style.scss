@@ -1,0 +1,47 @@
+.traders-guide {
+	&__container {
+		position: relative;
+		padding: 245px 0px;
+	}
+
+	&__images-container {
+		width: 549px;
+	}
+
+	&__monitor {
+		position: absolute;
+		z-index: 1;
+		display: block;
+	}
+
+	&__circle {
+		position: absolute;
+		top: 200px;
+		left: -100px;
+		width: 209px;
+		height: 209px;
+		border: 10px dashed #1234e8;
+	}
+
+	&__circle-dashed {
+		position: absolute;
+		width: 197px;
+		height: 197px;
+		left: 1450px;
+		bottom: -45px;
+	}
+
+	&__content-container {
+		max-width: 549px;
+		margin-top: 70px;
+	}
+
+	&__description {
+		margin: 35px 0px;
+	}
+
+	&__button {
+		width: 200px;
+		height: 55px;
+	}
+}

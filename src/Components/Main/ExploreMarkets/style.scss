@@ -1,0 +1,73 @@
+
+
+.explore {
+	&__container {
+		display: flex;
+		padding-top: 100px;
+
+		.content-container {
+			width: 600px;
+
+			&__advantages {
+				.content-container__advantages-list {
+
+					li {
+						font-weight: 400;
+						font-size: 24px;
+						line-height: 52px;
+						color: #1234e8;
+					}
+
+					li:first-child::before {
+						content: url("../../../assets/images/stocks.svg");
+						padding-right: 10px;
+					}
+
+					li:last-child::before {
+						content: url("../../../assets/images/news.svg");
+						padding-right: 10px;
+					}
+
+				}
+			}
+
+			&__buttons {
+				max-width: 400px;
+				margin-top: 60px;
+				z-index: 1;
+
+				.content-container__buttons-first {
+					width: 185px;
+					height: 55px;
+				}
+
+				.content-container__buttons-second {
+					width: 185px;
+					height: 55px;
+				}
+			}
+		}
+
+		.images-container {
+			position: relative;
+
+			&__circle {
+				position: absolute;
+				left: 100px;
+			}
+
+			&__circle-dashed {
+				position: absolute;
+				top: 25px;
+				left: 130px;
+				z-index: 1;
+			}
+
+			&__phone {
+				position: absolute;
+				z-index: 2;
+				top: -220px;
+			}
+		}
+	}
+}

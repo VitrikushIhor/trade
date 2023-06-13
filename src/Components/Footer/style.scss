@@ -1,0 +1,36 @@
+.footer {
+	&__container {
+
+		.container-head {
+			&__danger-title {
+				font-weight: 500;
+				font-size: 16px;
+				line-height: 16px;
+				letter-spacing: 0.02em;
+				margin-bottom: 20px;
+			}
+
+			&__danger-description {
+				font-size: 14px;
+				line-height: 28px;
+				letter-spacing: 0.02em;
+
+			}
+		}
+
+		.container-about {
+			padding: 40px 0px;
+			background-color: #EEEEEE;
+			margin-top: 60px;
+
+			&__content-title {
+				font-weight: 500;
+				font-size: 14px;
+				line-height: 14px;
+				letter-spacing: 0.02em;
+				color: #111111;
+				opacity: 0.25;
+			}
+		}
+	}
+}
